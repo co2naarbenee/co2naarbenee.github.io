@@ -6,9 +6,8 @@ function SubmitEmail() {
 	var email = document.getElementById("email").value;
 	let data = "Learning how to write in a file.";
 
-	const fs = require('fs');
-	fs.writeFile('Output.txt', data,  (err) => { if (err) throw err; }  );
-
-	
+	setTimeout(() => {  console.log("waited 2000 ms");  },  2000);
+	var fs = require('fs');
+	fs.writeFile(path + 'Output.txt', data,  (err) => { if (err) throw err; }  );
 
 }
