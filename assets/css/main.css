@@ -116,7 +116,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #e44c65 !important;
+			color: #272833 !important;
 			border-bottom-color: transparent;
 		}
 
@@ -2186,7 +2186,7 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: #e44c65;
+			background: #39c088;
 			content: '';
 			display: inline-block;
 			height: 0.2em;
@@ -2512,12 +2512,12 @@ input, select, textarea {
 .tooltip {
 	position: relative;
 	display: inline-block;
-	
+
   }
-  
+
   /* Tooltip text */
   .tooltip .tooltiptext {
-	
+
 	opacity: 0;
 	width: 120px;
 	background-color: black;
@@ -2525,7 +2525,7 @@ input, select, textarea {
 	text-align: center;
 	padding: 5px 0;
 	border-radius: 6px;
-   
+
 	/* Position the tooltip text - see examples below! */
 	position: absolute;
 	z-index: 1;
@@ -2536,7 +2536,7 @@ input, select, textarea {
   left: 50%;
   margin-left: -60px;
   }
-  
+
   /* Show the tooltip text when you mouse over the tooltip container */
   .tooltip:hover .tooltiptext {
 	visibility: visible;
@@ -2545,7 +2545,7 @@ input, select, textarea {
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-	
+
   }
 	.image {
 		border-radius: 4px;
@@ -3480,7 +3480,13 @@ input, select, textarea {
 	}
 
 	body.landing #header {
-		background: rgb(28, 28, 36); /* back */
+		background: rgb(28, 28, 36); /* BACKGROUND */
+		box-shadow: none;
+		position: absolute;
+	}
+
+	body.landing #header2 {
+		background: #1c1d26; /* BACKGROUND */
 		box-shadow: none;
 		position: absolute;
 	}
