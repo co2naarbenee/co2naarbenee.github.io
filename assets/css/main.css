@@ -2509,6 +2509,44 @@ input, select, textarea {
 
 /* Image */
 
+.tooltip {
+	position: relative;
+	display: inline-block;
+	
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+	
+	opacity: 0;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	padding: 5px 0;
+	border-radius: 6px;
+   
+	/* Position the tooltip text - see examples below! */
+	position: absolute;
+	z-index: 1;
+  }
+  .tooltiptext {
+	width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+	visibility: visible;
+	opacity: 1;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+	
+  }
 	.image {
 		border-radius: 4px;
 		border: 0;
