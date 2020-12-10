@@ -3524,6 +3524,10 @@ input, select, textarea {
 					display: block;
 					width: 100%;
 				}
+				#banner .donateImg {
+					display: block;
+					width: 100%;
+				}
 
 	body.is-touch #banner {
 		background-attachment: scroll;
