@@ -86,11 +86,6 @@ input, select, textarea {
 		background: #1c1d26;
 	}
 
-	html #overons-bg {
-		/* #002B0F */
-		background: #000e03;
-	}
-
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 		-moz-animation: none !important;
 		-webkit-animation: none !important;
@@ -598,7 +593,7 @@ input, select, textarea {
 			-webkit-animation: overlay-hide 0.55s ease-in forwards !important;
 			-ms-animation: overlay-hide 0.55s ease-in forwards !important;
 			animation: overlay-hide 0.55s ease-in forwards !important;
-			background: #1c1d26; /* changed color to hot pink from: #1c1d26 */
+			background: #1c1d26;
 			content: '';
 			display: block;
 			height: 100%;
