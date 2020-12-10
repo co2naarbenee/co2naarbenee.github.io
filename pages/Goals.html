@@ -50,13 +50,12 @@
 										<p>De opwarming van de aarde is niet meer te stoppen. Door de hoeveelheden broeikasgas die de mens al uitgestoten heeft, zal het deze eeuw warmer worden. Hoeveel de aarde zal opwarmen, hangt af van welke maatregelen wereldwijd genomen worden. Maar wij bij CO2naarbenee willen dit effect verminderen door met uw donaties goede doelen te steunen en daarbij helpt u met het remmen van klimaatverandering</p>
 										<br>
 										<br>
-										<br>
-										<br>
-										<br>
 										<div class="tooltip">
 										<h3>Hier staan updates over waar we hebben gedoneerd en hoeveel we hebben opgehaald!</h3>
 											<span class="tooltiptext">Dit word niet automaties geupdate. dus veranderingen zullen ongeveer per week worden bijgewerkt</span>
-											<iframe width="100%" height="auto"></iframe>
+											<iframe id="myFrame" src="../Updates.html" width="100%" height="300" style="border:1px solid #39c088">
+											</iframe>
+
 										</div>
 										
 									</section>
@@ -67,19 +66,16 @@
 				</div>
 
 			<!-- Footer -->
-				<footer id="footer">
-					<ul class="icons">
-						<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-						<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-					<ul class="copyright">
-						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
-				</footer>
+        <footer id="footer">
+          <ul class="icons">
+            <li><a href="https://twitter.com/co2naarbenee" target="_blank" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+            <li><a href="https://github.com/co2naarbenee/co2naarbenee.github.io" target="_blank" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+            <li><a href="mailto:co2naarbenee@gmail.com" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+          </ul>
+          <ul class="footer-font-ease">
+            <li><a href="https://twitter.com/co2naarbenee" target="_blank">@co2naarbenee</a></li>
+          </ul>
+        </footer>
 
 		</div>
 
@@ -92,6 +88,15 @@
 		<script src="../assets/js/breakpoints.min.js"></script>
 		<script src="../assets/js/util.js"></script>
 		<script src="../assets/js/main.js"></script>
+		<script>
+			var frame = document.getElementById('myFrame');
+				frame.onload = function () {
+					var body = frame.contentWindow.document.querySelector('body');
+					body.style.color = 'red';
+					body.style.fontSize = '20px';
+					body.style.lineHeight = '20px';
+				};
+		</script>
 
 	</body>
 </html>
