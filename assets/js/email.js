@@ -1,4 +1,6 @@
 
+
+
 function SubmitEmail() {
 
 	var path = "../../__questions__/";
@@ -6,8 +8,17 @@ function SubmitEmail() {
 	var email = document.getElementById("email").value;
 	let data = "Learning how to write in a file.";
 
-	setTimeout(() => {  console.log("waited 2000 ms");  },  2000);
-	var fs = require('fs');
-	fs.writeFile(path + 'Output.txt', data,  (err) => { if (err) throw err; }  );
+	// require this to import fs module using the require module
+	const fs = require('fs')
+
+	try {
+		// b59ef7bef5e2e674a7aed946bf202843
+	  fs.renameSync('Output.json', 'b59ef7bef5e2e674a7aed946bf202843.json')
+	  //done
+	} catch (err) {
+	  console.error(err)
+	}
+
+	// fs.writeFile(path + 'Output.txt', data,  (err) => { if (err) throw err; }  );
 
 }
