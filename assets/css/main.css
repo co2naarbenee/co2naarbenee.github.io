@@ -88,7 +88,7 @@ input, select, textarea {
 
 	html #overons-bg {
 		/* #002B0F */
-		background: #000e03;
+		background: #002B0F;
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2941,7 +2941,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #e44c65;
+			background-color: #39c088;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -3244,7 +3244,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style2 {
-			background: #e44c65;
+			background: #39c088;
 		}
 
 			.wrapper.style2 input[type="text"]:focus,
@@ -3520,9 +3520,9 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, #004405, #006307);;
-			background-image: -webkit-linear-gradient(top, #004405, #006307);;
-			background-image: linear-gradient(top, #004405, #006307) ;;
+			background-image: -moz-linear-gradient(top, #007559, #006307);;
+			background-image: -webkit-linear-gradient(top, #007559, #006307);;
+			background-image: linear-gradient(top, #007559, #006307) ;;
 			content: '';
 			display: block;
 			height: 100%;
