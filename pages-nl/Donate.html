@@ -28,14 +28,20 @@
 
       <!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">Home</a></h1>
-          <!-- Navbar -->
+					<h1 id="logo"><a class="button primaryV2" href="index.html">Home</a></h1>
+
+					<!-- Navbar -->
 					<nav id="nav">
 						<ul>
-              <li><a href="../pages-en/Donate.html">English</a></li>
-							<li><a href="Goals.html">Onze doelen</a></li>
-							<li><a href="AboutUs.html">Over ons</a></li>
-							<!--<li><a href="Donate.html" class="button primary">Doneer</a></li>-->
+							<li><a class="button primaryV2" href="../pages-en/index.html">Nederlands</a></li>
+							<li><a class="button primaryV2" href="Goals.html">Onze Doelen</a></li>
+							<li><a class="button primaryV2" href="AboutUs.html">Over Ons</a></li>
+              <li><a id="Donate" href="Donate.html" class="button primary">Doneer</a>
+                <form action="https://www.paypal.com/donate" method="post" target="_blank">
+                  <input type="hidden" name="hosted_button_id" value="ZXD6NBF4NCGAW" />
+                  <img alt="" src="https://www.paypal.com/nl_NL/i/scr/pixel.gif" width="1" height="1" />
+                  </form>
+              </li>
 						</ul>
 					</nav>
 				</header>
