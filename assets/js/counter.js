@@ -1,7 +1,14 @@
 function counter() {
-    var views = parseInt(document.getElementById("2dccd1ab3e03990aea77359831c85ca2").textContent);
-    views++;
-    document.getElementById("2dccd1ab3e03990aea77359831c85ca2").innerHTML = views;
-    console.log(views);
+    var regex = /[+-]?\d+(\.\d+)?/g;
+    var sum = 0;
+    var str = document.getElementById("text").innerHTML;
+var floats = str.match(regex).map(function(v) {
+  return parseFloat(v);
+});
+for (var i = 0; i < floats.length; i++) {
+  sum += floats[i]
 }
+document.getElementById("totaal").innerHTML = "Geld Opgehaald: " + sum;
+                    
+} 
 counter();
